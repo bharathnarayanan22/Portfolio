@@ -1,0 +1,184 @@
+#header {
+    width: "100%";
+    background-color: rgb(5, 5, 5);
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    left:0px;
+}
+
+#hs1 {
+    font-family: Verdana;
+    font-size: x-large;
+    color: orangered;
+}
+
+#profile {
+    display: flex;
+    background-color: rgb(11, 11, 11);
+    background-image: url('download.jpeg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    
+}
+
+#profile img {
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    margin-right: 20px;
+    margin: 2%;
+    margin-top: 8%;
+    
+}
+
+#profile span {
+    font-size: 200%;
+    font-style: italic, bold;
+    color: rgb(16, 17, 17);
+    font-weight: 900;
+    margin-top: 17%;
+    margin-left: 5%;
+}
+
+a.prolink{
+    text-decoration: none;
+    border-radius: 35px;
+    background-color: black;
+    color: whitesmoke;
+    padding: 16px 35px;
+    font-size: medium;
+    margin-top: 40%;
+    margin-left: 30%;
+}
+
+a.prolink:hover{
+    background-color: whitesmoke;
+    color: black;
+}
+
+a.a1:hover {
+    font-size: 200%;
+    text-shadow: 1px 1px 2px whitesmoke, 0 0 25px rgb(238, 162, 12), 0 0 5px rgb(32, 32, 31);
+}
+
+span.s:hover {
+    text-shadow: 1px 1px 2px whitesmoke, 0 0 25px rgb(9, 209, 244);
+}
+
+span.s {
+    font-family: Verdana;
+    font-size: 285%;
+    font-weight: 900;
+    text-shadow: 1px 1px 2px whitesmoke, 0 0 25px rgb(238, 162, 12);
+}
+
+div.ab{
+    font-family: 'Times New Roman'; 
+    font-size:x-large;
+    background-color: rgba(255, 255, 255, 0.6);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    width: 65%;
+    height: 250px;
+    padding-left: 8%;
+    margin-left: 13%;
+    border-radius: 45%;
+}
+
+th.thedu{
+    background-color: #f2f2f2; 
+    font-weight: bold; 
+    text-align: center; 
+    padding: 10px;
+    border: 1px solid black;
+}
+
+tr.tredu,.trs{
+    text-align: center; 
+    background-color:black
+}
+
+td.tdedu{
+    padding: 10px;
+    border: 1px solid rgb(240, 148, 8); 
+    color: orangered;
+}
+
+th.ths{
+    background-color: #f2f2f2; 
+    font-weight: bold; 
+    text-align: center; 
+    padding: 10px;
+    border: 1px solid rgb(240, 148, 8);
+}
+
+td.tds{
+    padding: 10px; 
+    border: 1px solid rgb(240, 148, 8); 
+    color: orangered;
+}
+
+div.po{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+div.pi{
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    width:30%;
+    border-radius: 10%;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.6);
+}
+
+div.pii{
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+}
+
+span.ps{
+    font-size: x-large; 
+    font-weight: 900; 
+    padding: 5%;
+    text-shadow: 1px 1px 2px whitesmoke, 0 0 25px rgb(238, 12, 12), 0 0 5px rgb(248, 163, 6);
+    
+}
+
+div.pp{
+    text-align: left;
+    padding-left: 17%;
+    font-weight: 700;
+}
+
+div.ci{
+    font-weight: 700; 
+    font-size:large;
+    background-color: rgba(255, 255, 255, 0.6);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    width: 60%;
+    height: 200px;
+    padding-left: 8%;
+    margin-left: 15%;
+    border-radius: 50%;
+
+}
+
+td.t {
+    color: orangered;
+}
+
+.contact{
+    position: fixed;
+    bottom: 0px;
+}
